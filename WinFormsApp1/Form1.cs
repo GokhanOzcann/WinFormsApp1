@@ -29,6 +29,8 @@ namespace WinFormsApp1
             if (kadi.Text == "mehmet" && sifre.Text == "1234")
             {
                 MessageBox.Show("Gİriş Başarılı");
+                Form2 f2 = new Form2();
+                f2.Show();
             }
             else if (kadi.Text == "")
             {
